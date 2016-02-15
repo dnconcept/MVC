@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .? - [L]
+
+# Rewrite all other queries to the front controller.
+RewriteRule .? %{ENV:BASE}/IMIE/MVC/index.php [QSA,L]
+

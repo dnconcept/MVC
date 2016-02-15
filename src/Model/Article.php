@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Model;
+
 /**
  * Class Article
  * @author Nicolas Desprez <contact@dnconcept.fr>
